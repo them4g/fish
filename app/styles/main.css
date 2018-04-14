@@ -10,3 +10,44 @@ main {
 .carousel-slider {
   height: 400px !important;
 }
+
+.page {
+  margin-top: 30px;
+}
+
+.page-content {
+  margin-top: 10px;
+}
+
+.article-list {
+  margin-top: 20px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs {
+  flex-grow: 1;
+}
+
+.list-view {
+  padding: 0 .75rem;
+}
+
+.list-view__item {
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  text-align: center;
+}
+
+.list-view__item--active {
+  pointer-events: none;
+  cursor: default;
+}
+
+.list-view__icon {
+  line-height: 40px;
+}
